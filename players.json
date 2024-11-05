@@ -1,0 +1,1028 @@
+{
+  "Sheet1": [
+    {
+      "Name": "tekkito",
+      "Country": "US",
+      "CreationDate": "2015-09",
+      "BestPlacement": "1st",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "Rektygon",
+      "Country": "US",
+      "CreationDate": "2016-01",
+      "BestPlacement": "1st",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "WindowLife",
+      "Country": "US",
+      "CreationDate": "2014-03",
+      "BestPlacement": "1st",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "wudci",
+      "Country": "US",
+      "CreationDate": "2013-04",
+      "BestPlacement": "1st",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Vaxei",
+      "Country": "US",
+      "CreationDate": "2014-08",
+      "BestPlacement": "1st",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "Kama",
+      "Country": "US",
+      "CreationDate": "2018-11",
+      "BestPlacement": "1st",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "fieryrage",
+      "Country": "US",
+      "CreationDate": "2013-11",
+      "BestPlacement": "1st",
+      "Playstyle": "mouse",
+      "OWCAppearances": "7"
+    },
+    {
+      "Name": "BoshyMan741",
+      "Country": "US",
+      "CreationDate": "2014-08",
+      "BestPlacement": "1st",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "FlyingTuna",
+      "Country": "KR",
+      "CreationDate": "2016-11",
+      "BestPlacement": "2nd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "5"
+    },
+    {
+      "Name": "[Karcher]",
+      "Country": "KR",
+      "CreationDate": "2017-12",
+      "BestPlacement": "2nd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "worst hr player",
+      "Country": "KR",
+      "CreationDate": "2019-03",
+      "BestPlacement": "2nd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "Zeisen-",
+      "Country": "KR",
+      "CreationDate": "2016-02",
+      "BestPlacement": "2nd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "5"
+    },
+    {
+      "Name": "Amamya Kokoro",
+      "Country": "KR",
+      "CreationDate": "2013-04",
+      "BestPlacement": "2nd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "Allegrissimo",
+      "Country": "KR",
+      "CreationDate": "2016-09",
+      "BestPlacement": "2nd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "_sPekTrE",
+      "Country": "KR",
+      "CreationDate": "2017-11",
+      "BestPlacement": "2nd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Peresia",
+      "Country": "KR",
+      "CreationDate": "2015-09",
+      "BestPlacement": "2nd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "Dumii",
+      "Country": "AU",
+      "CreationDate": "2013-08",
+      "BestPlacement": "3rd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "8"
+    },
+    {
+      "Name": "mrekk",
+      "Country": "AU",
+      "CreationDate": "2015-12",
+      "BestPlacement": "3rd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "ASecretBox",
+      "Country": "AU",
+      "CreationDate": "2015-10",
+      "BestPlacement": "3rd",
+      "Playstyle": "mouse",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "aknzx",
+      "Country": "AU",
+      "CreationDate": "2017-03",
+      "BestPlacement": "3rd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "cyo",
+      "Country": "AU",
+      "CreationDate": "2016-04",
+      "BestPlacement": "3rd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "JGLF",
+      "Country": "AU",
+      "CreationDate": "2017-08",
+      "BestPlacement": "3rd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "oslash",
+      "Country": "AU",
+      "CreationDate": "2018-10",
+      "BestPlacement": "3rd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Zyntex",
+      "Country": "AU",
+      "CreationDate": "2018-02",
+      "BestPlacement": "3rd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "criller",
+      "Country": "DE",
+      "CreationDate": "2016-03",
+      "BestPlacement": "2nd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "WhiteCat",
+      "Country": "DE",
+      "CreationDate": "2014-06",
+      "BestPlacement": "2nd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "okinamo",
+      "Country": "DE",
+      "CreationDate": "2013-12",
+      "BestPlacement": "2nd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "6"
+    },
+    {
+      "Name": "Tim Kackner",
+      "Country": "DE",
+      "CreationDate": "2019-05",
+      "BestPlacement": "4th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "yary",
+      "Country": "DE",
+      "CreationDate": "2018-10",
+      "BestPlacement": "4th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "aimbotcone",
+      "Country": "DE",
+      "CreationDate": "2018-08",
+      "BestPlacement": "3rd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "ZeitFrost",
+      "Country": "DE",
+      "CreationDate": "2017-11",
+      "BestPlacement": "4th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Shiox",
+      "Country": "DE",
+      "CreationDate": "2018-03",
+      "BestPlacement": "4th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Zylice",
+      "Country": "CA",
+      "CreationDate": "2014-10",
+      "BestPlacement": "4th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "xootynator",
+      "Country": "CA",
+      "CreationDate": "2013-12",
+      "BestPlacement": "3rd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "Ryuk",
+      "Country": "CA",
+      "CreationDate": "2015-04",
+      "BestPlacement": "3rd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "5"
+    },
+    {
+      "Name": "Stoof",
+      "Country": "CA",
+      "CreationDate": "2014-09",
+      "BestPlacement": "3rd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "5"
+    },
+    {
+      "Name": "CutPaper",
+      "Country": "CA",
+      "CreationDate": "2017-10",
+      "BestPlacement": "5-6th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Yip",
+      "Country": "CA",
+      "CreationDate": "2014-11",
+      "BestPlacement": "4th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "kurtis-",
+      "Country": "CA",
+      "CreationDate": "2015-01",
+      "BestPlacement": "4th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "Vespirit",
+      "Country": "CA",
+      "CreationDate": "2014-12",
+      "BestPlacement": "4th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "enri",
+      "Country": "PH",
+      "CreationDate": "2016-07",
+      "BestPlacement": "5-6th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "hyeok2044",
+      "Country": "KR",
+      "CreationDate": "2016-05",
+      "BestPlacement": "5-6th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "NathanRam1918",
+      "Country": "PH",
+      "CreationDate": "2014-08",
+      "BestPlacement": "5-6th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "Xyloz",
+      "Country": "PH",
+      "CreationDate": "2018-04",
+      "BestPlacement": "5-6th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "Milkteaism",
+      "Country": "PH",
+      "CreationDate": "2017-01",
+      "BestPlacement": "5-6th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "Impowster",
+      "Country": "PH",
+      "CreationDate": "2018-11",
+      "BestPlacement": "5-6th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Miggie",
+      "Country": "PH",
+      "CreationDate": "2018-04",
+      "BestPlacement": "5-6th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "zonelouise",
+      "Country": "PH",
+      "CreationDate": "2012-03",
+      "BestPlacement": "5-6th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "maliszewski",
+      "Country": "PL",
+      "CreationDate": "2018-06",
+      "BestPlacement": "4th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "gnahus",
+      "Country": "PL",
+      "CreationDate": "2018-08",
+      "BestPlacement": "4th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "rafal",
+      "Country": "PL",
+      "CreationDate": "2016-01",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Rafis",
+      "Country": "PL",
+      "CreationDate": "2013-04",
+      "BestPlacement": "1st",
+      "Playstyle": "tablet",
+      "OWCAppearances": "9"
+    },
+    {
+      "Name": "kasiabarwicka",
+      "Country": "PL",
+      "CreationDate": "2018-09",
+      "BestPlacement": "7-8th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Bartek22830",
+      "Country": "PL",
+      "CreationDate": "2015-05",
+      "BestPlacement": "4th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "5"
+    },
+    {
+      "Name": "Michni",
+      "Country": "PL",
+      "CreationDate": "2013-11",
+      "BestPlacement": "4th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "Mastasz",
+      "Country": "PL",
+      "CreationDate": "2012-08",
+      "BestPlacement": "4th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "Intercambing",
+      "Country": "CL",
+      "CreationDate": "2013-04",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "Mathi",
+      "Country": "CL",
+      "CreationDate": "2014-12",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "5"
+    },
+    {
+      "Name": "suntanCTM",
+      "Country": "CL",
+      "CreationDate": "2020-12",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "Eunha",
+      "Country": "CL",
+      "CreationDate": "2016-01",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "NO37",
+      "Country": "CL",
+      "CreationDate": "2014-07",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "5"
+    },
+    {
+      "Name": "tfge",
+      "Country": "CL",
+      "CreationDate": "2017-11",
+      "BestPlacement": "7-8th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "xXChokgamerXx",
+      "Country": "CL",
+      "CreationDate": "2016-01",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "Gonzah",
+      "Country": "CL",
+      "CreationDate": "2018-06",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "Chicony",
+      "Country": "RU",
+      "CreationDate": "2014-11",
+      "BestPlacement": "7-8th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "-Din-",
+      "Country": "RU",
+      "CreationDate": "2016-02",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "desuqe",
+      "Country": "RU",
+      "CreationDate": "2017-02",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "gamer228666",
+      "Country": "RU",
+      "CreationDate": "2015-02",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "HandsomeMe",
+      "Country": "RU",
+      "CreationDate": "2017-12",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Skrowell",
+      "Country": "RU",
+      "CreationDate": "2017-02",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Welter",
+      "Country": "RU",
+      "CreationDate": "2018-01",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "Markrum",
+      "Country": "RU",
+      "CreationDate": "2018-03",
+      "BestPlacement": "9-12th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Bubbleman",
+      "Country": "GB",
+      "CreationDate": "2014-11",
+      "BestPlacement": "2nd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "9"
+    },
+    {
+      "Name": "Akolibed",
+      "Country": "GB",
+      "CreationDate": "2016-11",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "rudj",
+      "Country": "GB",
+      "CreationDate": "2018-01",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "EZChamp",
+      "Country": "GB",
+      "CreationDate": "2012-07",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Malteser",
+      "Country": "GB",
+      "CreationDate": "2014-11",
+      "BestPlacement": "5-6th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "Kingling",
+      "Country": "GB",
+      "CreationDate": "2015-08",
+      "BestPlacement": "5-6th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "haunte",
+      "Country": "GB",
+      "CreationDate": "2015-10",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Ophiz",
+      "Country": "IE",
+      "CreationDate": "2015-06",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "scylla",
+      "Country": "SE",
+      "CreationDate": "2016-12",
+      "BestPlacement": "9-12th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "Reedkatt",
+      "Country": "SE",
+      "CreationDate": "2016-04",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "5"
+    },
+    {
+      "Name": "Andros",
+      "Country": "SE",
+      "CreationDate": "2016-10",
+      "BestPlacement": "9-12th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "Zpinxx",
+      "Country": "SE",
+      "CreationDate": "2017-03",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Jageko",
+      "Country": "SE",
+      "CreationDate": "2015-01",
+      "BestPlacement": "9-12th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "Fejlan",
+      "Country": "SE",
+      "CreationDate": "2016-03",
+      "BestPlacement": "9-12th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "Grippeh",
+      "Country": "SE",
+      "CreationDate": "2018-02",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "TOnyrino",
+      "Country": "SE",
+      "CreationDate": "2015-10",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "lolol235",
+      "Country": "CN",
+      "CreationDate": "2015-03",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "5"
+    },
+    {
+      "Name": "lolol234",
+      "Country": "CN",
+      "CreationDate": "2015-01",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "5"
+    },
+    {
+      "Name": "lolol233",
+      "Country": "CN",
+      "CreationDate": "2017-12",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "Crystal",
+      "Country": "CN",
+      "CreationDate": "2012-06",
+      "BestPlacement": "2nd",
+      "Playstyle": "tablet",
+      "OWCAppearances": "7"
+    },
+    {
+      "Name": "My Angel Anzu",
+      "Country": "CN",
+      "CreationDate": "2014-09",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "z980838928",
+      "Country": "CN",
+      "CreationDate": "2012-01",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "SurvivorX4",
+      "Country": "CN",
+      "CreationDate": "2018-07",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "MidC",
+      "Country": "CN",
+      "CreationDate": "2021-01",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "rHO",
+      "Country": "ID",
+      "CreationDate": "2012-05",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "6"
+    },
+    {
+      "Name": "lifeline",
+      "Country": "ID",
+      "CreationDate": "2017-12",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "Hakui Koyori",
+      "Country": "ID",
+      "CreationDate": "2017-08",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "5"
+    },
+    {
+      "Name": "MineFrostID",
+      "Country": "ID",
+      "CreationDate": "2018-04",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "Skydiver",
+      "Country": "ID",
+      "CreationDate": "2014-08",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "5"
+    },
+    {
+      "Name": "ThatNOOBguy",
+      "Country": "ID",
+      "CreationDate": "2017-11",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "DEETO",
+      "Country": "ID",
+      "CreationDate": "2017-04",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "Rexeez",
+      "Country": "ID",
+      "CreationDate": "2012-10",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "7"
+    },
+    {
+      "Name": "-izzy",
+      "Country": "BR",
+      "CreationDate": "2019-09",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Coreanmaluco",
+      "Country": "BR",
+      "CreationDate": "2013-08",
+      "BestPlacement": "5-6th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "6"
+    },
+    {
+      "Name": "Dafonz",
+      "Country": "BR",
+      "CreationDate": "2015-06",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "Daf0nz",
+      "Country": "BR",
+      "CreationDate": "2019-06",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "VitorSkull",
+      "Country": "BR",
+      "CreationDate": "2017-05",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "zubs",
+      "Country": "NO",
+      "CreationDate": "2014-04",
+      "BestPlacement": "5-6th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "Juh",
+      "Country": "BR",
+      "CreationDate": "2017-05",
+      "BestPlacement": "13-16th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Lirumin",
+      "Country": "BR",
+      "CreationDate": "2019-09",
+      "BestPlacement": "13-16th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Musty",
+      "Country": "FR",
+      "CreationDate": "2010-02",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "12"
+    },
+    {
+      "Name": "FlasTEH",
+      "Country": "FR",
+      "CreationDate": "2016-05",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "Ekoro",
+      "Country": "FR",
+      "CreationDate": "2010-03",
+      "BestPlacement": "9-12th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "CharleLee",
+      "Country": "FR",
+      "CreationDate": "2017-06",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "fiaee",
+      "Country": "FR",
+      "CreationDate": "2017-06",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "flaven",
+      "Country": "FR",
+      "CreationDate": "2013-08",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "justman",
+      "Country": "FR",
+      "CreationDate": "2015-12",
+      "BestPlacement": "9-12th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "Hifkil",
+      "Country": "FR",
+      "CreationDate": "2014-04",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "magnatagamer123",
+      "Country": "UA",
+      "CreationDate": "2015-12",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "dench",
+      "Country": "UA",
+      "CreationDate": "2017-04",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "POMAH",
+      "Country": "UA",
+      "CreationDate": "2018-02",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "sharytory",
+      "Country": "UA",
+      "CreationDate": "2020-02",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "P0MAH",
+      "Country": "UA",
+      "CreationDate": "2016-04",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "RafGPio",
+      "Country": "UA",
+      "CreationDate": "2019-01",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "Unavel",
+      "Country": "UA",
+      "CreationDate": "2020-10",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "TAPAC",
+      "Country": "UA",
+      "CreationDate": "2017-06",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    }
+  ]
+}

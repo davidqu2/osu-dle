@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>osu!dle - Guess the OWC Player</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .game-container {
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+            color: #ff66aa;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 30px;
+        }
+        .guess-input {
+            display: flex;
+            margin-bottom: 20px;
+            gap: 10px;
+            position: relative;
+        }
+        #guess-input {
+            flex-grow: 1;
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #333;
+            border-radius: 4px;
+            background-color: #1e1e1e;
+            color: #fff;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        button {
+            padding: 12px 24px;
+            font-size: 16px;
+            background-color: #ff66aa;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:disabled {
+            background-color: #555;
+            cursor: not-allowed;
+        }
+        .guesses {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .headers {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+            gap: 5px;
+            padding: 5px 10px;
+            font-weight: bold;
+            color: #888;
+            font-size: 0.8em;
+            text-transform: uppercase;
+        }
+        .guess {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+            gap: 5px;
+            padding: 8px;
+            background-color: #1e1e1e;
+            border-radius: 4px;
+        }
+        .guess div {
+            padding: 8px 5px;
+            text-align: center;
+            font-size: 14px;
+            border-radius: 2px;
+        }
+        .correct {
+            background-color: #4CAF50;
+        }
+        .close {
+            background-color: #8B4513;
+        }
+        .incorrect {
+            background-color: #2a2a2a;
+        }
+        #feedback {
+            margin-top: 20px;
+            text-align: center;
+        }
+        #attempts {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+        }
+        .flag {
+            width: 24px;
+            height: 16px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+        .arrow {
+            font-size: 12px;
+            margin-left: 4px;
+        }
+        .suggestions {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: #1e1e1e;
+            border: 1px solid #333;
+            max-height: 150px;
+            overflow-y: auto;
+            width: calc(100% - 100px);  /* Adjust based on your layout */
+            z-index: 1000;
+        }
+        @media (max-width: 600px) {
+            .headers, .guess {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            .headers div, .guess div {
+                padding: 5px 2px;
+                font-size: 12px;
+            }
+        }
+        .suggestion-item {
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+        .suggestion-item:hover {
+            background-color: #2a2a2a;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>osu!dle</h1>
+        <div class="subtitle">Guess the mystery OWC player</div>
+        <div id="attempts">Attempts left: 6</div>
+        <div class="guess-input">
+            <input type="text" id="guess-input" placeholder="Enter player name">
+            <button onclick="makeGuess()">Guess</button>
+            <div id="suggestions" class="suggestions"></div>
+        </div>
+        <div class="headers">
+            <div>Name</div>
+            <div>Country</div>
+            <div>Created</div>
+            <div>Best OWC</div>
+            <div>Playstyle</div>
+            <div>Appearances</div>
+        </div>
+        <div class="guesses" id="guesses"></div>
+        <div id="feedback"></div>
+    </div>
+    <script>
+        let players = [];
+        let dailyPlayer;
+        let gameOver = false;
+        let attemptsLeft = 6; // or whatever number of attempts you want to give]
+        
+        const continents = {
+            'US': 'America', 'CA': 'America', 'BR': 'America', 'CL': 'America', 'AR': 'America',
+            'DE': 'Europe', 'GB': 'Europe', 'PL': 'Europe', 'FR': 'Europe', 'NL': 'Europe', 'RU': 'Europe', 'FI': 'Europe', 'UA': 'Europe', 'NO': 'Europe', 'SE': 'Europe', 'IE': 'Europe', 
+            'KR': 'Asia', 'JP': 'Asia', 'TW': 'Asia', 'ID': 'Asia', 'PH': 'Asia', 'MY': 'Asia', 'SG': 'Asia', 'TH': 'Asia', 'CN': 'Asia', 
+            'AU': 'Oceania', 'NZ': 'Oceania',
+            // Add more countries and their continents as needed
+        };
+
+        const placementLevels = ['1st', '2nd', '3rd', '4th', '5-6th', '7-8th', '9-12th', '13-16th', '17-24th', '25-32th', 'dnq'];
+
+        async function loadPlayers() {
+            try {
+                const response = await fetch('players.json');
+                const data = await response.json();
+                players = data.Sheet1; // This matches your JSON structure
+                console.log('Players loaded:', players.length);
+                initGame();
+            } catch (error) {
+                console.error('Error loading players:', error);
+                document.getElementById('feedback').innerHTML = 'Error loading player data. Please try again later.';
+            }
+        }
+
+        function initGame() {
+            if (players.length > 0) {
+                dailyPlayer = players[Math.floor(Math.random() * players.length)];
+                console.log('Daily player:', dailyPlayer);
+                attemptsLeft = 6; // Reset attempts for each new game
+                updateAttemptsDisplay(); // Update the display
+            } else {
+                console.error('No players loaded');
+            }
+        }
+
+        function makeGuess() {
+            if (gameOver) return;
+
+            const guessInput = document.getElementById('guess-input');
+            const guesses = document.getElementById('guesses');
+            const feedback = document.getElementById('feedback');
+            
+            const guess = guessInput.value.trim();
+            const guessedPlayer = players.find(player => player.Name.toLowerCase() === guess.toLowerCase());
+            
+            if (guessedPlayer) {
+                attemptsLeft = Math.max(0, attemptsLeft - 1); // Ensure it doesn't go below 0
+                updateAttemptsDisplay();
+                
+                const guessElement = document.createElement('div');
+                guessElement.className = 'guess';
+
+                const [dateClass, dateArrow] = getDateComparison(guessedPlayer.CreationDate, dailyPlayer.CreationDate);
+                const [placementClass, placementArrow] = getPlacementComparison(guessedPlayer.BestPlacement, dailyPlayer.BestPlacement);
+                const [appearancesClass, appearancesArrow] = getAppearancesComparison(guessedPlayer.OWCAppearances, dailyPlayer.OWCAppearances);
+
+                guessElement.innerHTML = `
+                    <div class="${compareValues(guessedPlayer.Name, dailyPlayer.Name)}">${guessedPlayer.Name}</div>
+                    <div class="${compareCountry(guessedPlayer.Country, dailyPlayer.Country)}">
+                        <img class="flag" src="https://flagcdn.com/w40/${guessedPlayer.Country.toLowerCase()}.png" 
+                             alt="${guessedPlayer.Country}" title="${guessedPlayer.Country}">
+                    </div>
+                    <div class="${dateClass}">${guessedPlayer.CreationDate}${dateArrow}</div>
+                    <div class="${placementClass}">${guessedPlayer.BestPlacement}${placementArrow}</div>
+                    <div class="${compareValues(guessedPlayer.Playstyle, dailyPlayer.Playstyle)}">${guessedPlayer.Playstyle}</div>
+                    <div class="${appearancesClass}">${guessedPlayer.OWCAppearances}${appearancesArrow}</div>
+                `;
+                guesses.insertBefore(guessElement, guesses.firstChild);
+
+                if (guessedPlayer.Name === dailyPlayer.Name) {
+                    feedback.innerHTML = `Congratulations! You guessed correctly. The player is ${dailyPlayer.Name}!`;
+                    gameOver = true;
+                }
+            } else {
+                feedback.innerHTML = `${guess} is not in our OWC player database.`;
+            }
+            
+            guessInput.value = '';
+            checkGameOver();
+        }
+
+        function getDateComparison(guess, answer) {
+            const guessDate = new Date(guess);
+            const answerDate = new Date(answer);
+            
+            if (guess === answer) return ['correct', ''];
+            if (Math.abs(guessDate.getFullYear() - answerDate.getFullYear()) <= 3) {
+                return ['close', guessDate > answerDate ? ' ↓' : ' ↑'];
+            }
+            return ['incorrect', guessDate > answerDate ? ' ↓' : ' ↑'];
+        }
+
+        function getPlacementComparison(guess, answer) {
+            const guessIndex = placementLevels.indexOf(guess);
+            const answerIndex = placementLevels.indexOf(answer);
+            
+            if (guessIndex === answerIndex) return ['correct', ''];
+            if (Math.abs(guessIndex - answerIndex) <= 2) {
+                return ['close', guessIndex < answerIndex ? ' ↓' : ' ↑'];
+            }
+            return ['incorrect', guessIndex < answerIndex ? ' ↓' : ' ↑'];
+        }
+
+        function getAppearancesComparison(guess, answer) {
+            if (guess === answer) return ['correct', ''];
+            if (Math.abs(guess - answer) <= 3) {
+                return ['close', guess > answer ? ' ↓' : ' ↑'];
+            }
+            return ['incorrect', guess > answer ? ' ↓' : ' ↑'];
+        }
+
+        function compareValues(guess, answer) {
+            return guess === answer ? 'correct' : 'incorrect';
+        }
+
+        function compareCountry(guess, answer) {
+            if (guess === answer) return 'correct';
+            return continents[guess] === continents[answer] ? 'close' : 'incorrect';
+        }
+
+        function updateAttemptsDisplay() {
+            const attemptsDisplay = document.getElementById('attempts');
+            attemptsDisplay.textContent = `Attempts left: ${attemptsLeft}`;
+        }
+
+        function checkGameOver() {
+            const feedback = document.getElementById('feedback');
+            if (attemptsLeft <= 0 && !gameOver) {
+                feedback.innerHTML = `Game over! The player was ${dailyPlayer.Name}.`;
+                gameOver = true;
+            }
+
+            if (gameOver) {
+                document.getElementById('guess-input').disabled = true;
+                document.querySelector('button').disabled = true;
+            }
+        }
+        
+        function getSuggestions(input) {
+            input = input.toLowerCase();
+            return players
+                .filter(player => player.Name.toLowerCase().startsWith(input))
+                .sort((a, b) => a.Name.localeCompare(b.Name))
+                .slice(0, 5)
+                .map(player => player.Name);
+        }
+        
+        function updateSuggestions() {
+            const input = document.getElementById('guess-input');
+            const suggestionsDiv = document.getElementById('suggestions');
+            const suggestions = getSuggestions(input.value);
+            
+            suggestionsDiv.innerHTML = '';
+            suggestions.forEach(suggestion => {
+                const div = document.createElement('div');
+                div.textContent = suggestion;
+                div.className = 'suggestion-item';
+                div.onclick = function() {
+                    input.value = suggestion;
+                    suggestionsDiv.innerHTML = '';
+                };
+                suggestionsDiv.appendChild(div);
+            });
+        }
+        
+        // Load players and initialize the game when the page loads
+        loadPlayers();
+        
+        document.getElementById('guess-input').addEventListener('input', updateSuggestions);
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('#guess-input') && !e.target.closest('#suggestions')) {
+                document.getElementById('suggestions').innerHTML = '';
+            }
+        });
+    </script>
+</body>
+</html>
