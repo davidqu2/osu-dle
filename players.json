@@ -1023,6 +1023,518 @@
       "BestPlacement": "13-16th",
       "Playstyle": "tablet",
       "OWCAppearances": "1"
+    },
+    {
+      "Name": "rollpan",
+      "Country": "JP",
+      "CreationDate": "2013-08",
+      "BestPlacement": "4th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "Aotoleen",
+      "Country": "JP",
+      "CreationDate": "2013-08",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "Invoker",
+      "Country": "JP",
+      "CreationDate": "2014-12",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "KonKonKinakoN",
+      "Country": "JP",
+      "CreationDate": "2014-08",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "R10sh1",
+      "Country": "JP",
+      "CreationDate": "2020-05",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Rikuima",
+      "Country": "JP",
+      "CreationDate": "2019-03",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Teacchyyy",
+      "Country": "JP",
+      "CreationDate": "2015-10",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "Varvalian",
+      "Country": "JP",
+      "CreationDate": "2013-09",
+      "BestPlacement": "4th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "5"
+    },
+    {
+      "Name": "Ryuzaki",
+      "Country": "IT",
+      "CreationDate": "2015-09",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "5"
+    },
+    {
+      "Name": "Arancino",
+      "Country": "IT",
+      "CreationDate": "2018-02",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "bgm16",
+      "Country": "IT",
+      "CreationDate": "2018-01",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Arge",
+      "Country": "IT",
+      "CreationDate": "2017-11",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "giulio",
+      "Country": "IT",
+      "CreationDate": "2017-12",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "kariya wakana",
+      "Country": "IT",
+      "CreationDate": "2020-11",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "kiirochii",
+      "Country": "IT",
+      "CreationDate": "2015-04",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "5"
+    },
+    {
+      "Name": "shadow modico",
+      "Country": "IT",
+      "CreationDate": "2018-08",
+      "BestPlacement": "13-16th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "shdewz",
+      "Country": "FI",
+      "CreationDate": "2017-04",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "Freezd",
+      "Country": "FI",
+      "CreationDate": "2015-05",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "Xepei",
+      "Country": "FI",
+      "CreationDate": "2018-01",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "Dezku",
+      "Country": "FI",
+      "CreationDate": "2017-01",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "Amasetic",
+      "Country": "FI",
+      "CreationDate": "2017-12",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "AllyrD",
+      "Country": "FI",
+      "CreationDate": "2017-01",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Kalanluu",
+      "Country": "FI",
+      "CreationDate": "2012-10",
+      "BestPlacement": "17-24th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Nev-",
+      "Country": "FI",
+      "CreationDate": "2018-03",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Tebi",
+      "Country": "SG",
+      "CreationDate": "2014-12",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "Demonical",
+      "Country": "SG",
+      "CreationDate": "2014-12",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "5"
+    },
+    {
+      "Name": "Yellow-",
+      "Country": "SG",
+      "CreationDate": "2013-08",
+      "BestPlacement": "13-16th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "GSBlank",
+      "Country": "SG",
+      "CreationDate": "2013-01",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "10"
+    },
+    {
+      "Name": "qstronaut",
+      "Country": "SG",
+      "CreationDate": "2017-10",
+      "BestPlacement": "17-24th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Dawnwing",
+      "Country": "SG",
+      "CreationDate": "2014-11",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "Eagle5324",
+      "Country": "SG",
+      "CreationDate": "2018-03",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "emilia",
+      "Country": "SG",
+      "CreationDate": "2012-10",
+      "BestPlacement": "13-16th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "5"
+    },
+    {
+      "Name": "badeu",
+      "Country": "RO",
+      "CreationDate": "2012-03",
+      "BestPlacement": "5-6th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "7"
+    },
+    {
+      "Name": "etn",
+      "Country": "RO",
+      "CreationDate": "2014-06",
+      "BestPlacement": "5-6th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "7"
+    },
+    {
+      "Name": "Lucrise",
+      "Country": "RO",
+      "CreationDate": "2017-02",
+      "BestPlacement": "5-6th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "Razei",
+      "Country": "RO",
+      "CreationDate": "2017-09",
+      "BestPlacement": "5-6th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "roliy",
+      "Country": "RO",
+      "CreationDate": "2017-01",
+      "BestPlacement": "5-6th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "6"
+    },
+    {
+      "Name": "HowlPleb",
+      "Country": "RO",
+      "CreationDate": "2020-01",
+      "BestPlacement": "5-6th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "_Silvian",
+      "Country": "RO",
+      "CreationDate": "2016-06",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Chamosiala",
+      "Country": "RO",
+      "CreationDate": "2012-03",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "shion",
+      "Country": "HK",
+      "CreationDate": "2017-09",
+      "BestPlacement": "5-6th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "mcy4",
+      "Country": "HK",
+      "CreationDate": "2012-12",
+      "BestPlacement": "5-6th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "A21",
+      "Country": "HK",
+      "CreationDate": "2017-11",
+      "BestPlacement": "5-6th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "Tommy315",
+      "Country": "HK",
+      "CreationDate": "2017-08",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "F2X",
+      "Country": "HK",
+      "CreationDate": "2020-02",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "maxbireo",
+      "Country": "HK",
+      "CreationDate": "2014-07",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Zoomeree",
+      "Country": "HK",
+      "CreationDate": "2020-10",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Hibiki",
+      "Country": "HK",
+      "CreationDate": "2014-12",
+      "BestPlacement": "9-12th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "Lesperry",
+      "Country": "TH",
+      "CreationDate": "2020-08",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "-Kedama",
+      "Country": "TH",
+      "CreationDate": "2018-04",
+      "BestPlacement": "17-24th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "minecrafter",
+      "Country": "TH",
+      "CreationDate": "2016-12",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "chests",
+      "Country": "TH",
+      "CreationDate": "2019-07",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Deppyforce",
+      "Country": "TH",
+      "CreationDate": "2014-11",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "_Arigato",
+      "Country": "TH",
+      "CreationDate": "2016-11",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "[ Freeze ]",
+      "Country": "TH",
+      "CreationDate": "2019-10",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "[ Master ]",
+      "Country": "TH",
+      "CreationDate": "2018-04",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "YokesPai",
+      "Country": "NO",
+      "CreationDate": "2015-05",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "7"
+    },
+    {
+      "Name": "-GN",
+      "Country": "NO",
+      "CreationDate": "2011-06",
+      "BestPlacement": "7-8th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "12"
+    },
+    {
+      "Name": "amae koromo",
+      "Country": "NO",
+      "CreationDate": "2015-08",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "antonyw",
+      "Country": "NO",
+      "CreationDate": "2018-08",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "2"
+    },
+    {
+      "Name": "Melvr",
+      "Country": "NO",
+      "CreationDate": "2016-11",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "4"
+    },
+    {
+      "Name": "ninerik",
+      "Country": "NO",
+      "CreationDate": "2017-07",
+      "BestPlacement": "17-24th",
+      "Playstyle": "mouse",
+      "OWCAppearances": "3"
+    },
+    {
+      "Name": "papercandle",
+      "Country": "NO",
+      "CreationDate": "2018-05",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "1"
+    },
+    {
+      "Name": "Pinguinzi",
+      "Country": "NO",
+      "CreationDate": "2016-12",
+      "BestPlacement": "17-24th",
+      "Playstyle": "tablet",
+      "OWCAppearances": "3"
     }
   ]
 }
